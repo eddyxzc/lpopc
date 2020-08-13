@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{af688187-21b7-4291-86d3-68ac2f5d6e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Common">
+      <UniqueIdentifier>{d74531c9-7924-425a-b6fe-c96b123e9a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Core">
+      <UniqueIdentifier>{40b1b622-e2e4-41c4-ade7-8bc12c898fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\SparseMatrix">
+      <UniqueIdentifier>{a6285147-9189-40c1-98a4-04c00ef711c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Common\LpConf.h">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpDebug.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpException.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpOption.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpOptionList.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpReporter.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Common\LpUtils.h">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SparseMatrix\LpSparseArray.h">
+      <Filter>Source Files\src\SparseMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SparseMatrix\LpSparseMatrix.h">
+      <Filter>Source Files\src\SparseMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\RPMGenerator.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpCalculateData.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpSizeChecker.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpOptimalProblem.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpFunctionWrapper.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpLpopcApplication.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpLpopcAlgorithm.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpGuessChecker.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpBoundsChecker.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpMeshRefiner.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpSolutionError.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpOptDerive.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpFiniteDifferenceDerive.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpAnalyticDerive.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpANDeriveChecker.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpPhMeshRefineAlg.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpMeshRefineImpletation.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpNLPSolver.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\Nlp2OPConverter.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpNLPWrapper.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpHessian.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpopcIpopt.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpDerivDependciesChecker.h">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Core\LpSacleOCP.hpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Common\LpOption.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Common\LpOptionList.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Common\LpReporter.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Common\LpUtils.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Common\LpDebug.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SparseMatrix\LpSparseArray.cpp">
+      <Filter>Source Files\src\SparseMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SparseMatrix\LpSparseMatrix.cpp">
+      <Filter>Source Files\src\SparseMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\RPMGenerator.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpSizeChecker.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpOptimalProblem.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpLpopcApplication.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpLpopcAlgorithm.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpBoundsChecker.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpGuessChecker.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpMeshRefiner.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpSolutionError.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpFiniteDifferenceDerive.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpANDeriveChecker.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpPhMeshRefineAlg.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpNLPSolver.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\Nlp2OPConverter.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpNLPWrapper.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpHessian.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpopcIpopt.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpDerivDependciesChecker.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Core\LpSacleOCP.cpp">
+      <Filter>Source Files\src\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

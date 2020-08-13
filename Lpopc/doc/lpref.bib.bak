@@ -1,0 +1,231 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@Article{1995,
+  Title                    = {the pseudospectral legendre method for discretizing optimal control problems},
+  Author                   = {elnagar, g.,kazemi, m.a.,razzaghi, m.},
+  Journal                  = {aoma onrol ranaon on},
+  Year                     = {1995},
+  Number                   = {10},
+  Pages                    = {1793 - 1796},
+  Volume                   = {40}
+}
+
+@InProceedings{Becerra2010,
+  Title                    = {Solving complex optimal control problems at no cost with PSOPT},
+  Author                   = {Becerra, Victor M},
+  Booktitle                = {Computer-Aided Control System Design (CACSD), 2010 IEEE International Symposium on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {1391--1396}
+}
+
+@PhdThesis{benson2005gauss,
+  Title                    = {A Gauss pseudospectral transcription for optimal control},
+  Author                   = {Benson, David},
+  School                   = {Massachusetts Institute of Technology},
+  Year                     = {2005}
+}
+
+@Book{Betts2009,
+  Title                    = {Practical Methods for Optimal Control and Estimation Using Nonlinear Programming},
+  Author                   = {Betts, John T.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Edition                  = {2nd},
+
+  ISBN                     = {0898716888, 9780898716887}
+}
+
+@Article{bryson1969energy,
+  Title                    = {Energy-state approximation in performance optimization of supersonicaircraft},
+  Author                   = {BRYSON, JR, Arthur E and Desai, Mukund N and Hoffman, William C},
+  Journal                  = {Journal of Aircraft},
+  Year                     = {1969},
+  Number                   = {6},
+  Pages                    = {481--488},
+  Volume                   = {6}
+}
+
+@Article{Darby2011,
+  Title                    = {An hp-adaptive pseudospectral method for solving optimal control problems},
+  Author                   = {Darby, Christopher L and Hager, William W and Rao, Anil V},
+  Journal                  = {Optimal Control Applications and Methods},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {476--502},
+  Volume                   = {32},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@PhdThesis{Garg2011b,
+  Title                    = {Advances in global pseudospectral methods for optimal control},
+  Author                   = {Garg, Divya},
+  School                   = {University of Florida},
+  Year                     = {2011}
+}
+
+@Article{Garg2011a,
+  Title                    = {Pseudospectral methods for solving infinite-horizon optimal control problems},
+  Author                   = {Garg, Divya and Hager, William W and Rao, Anil V},
+  Journal                  = {Automatica},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {829--837},
+  Volume                   = {47},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{Garg2011,
+  Title                    = {Direct trajectory optimization and costate estimation of finite-horizon and infinite-horizon optimal control problems using a Radau pseudospectral method},
+  Author                   = {Garg, Divya and Patterson, Michael A and Francolin, Camila and Darby, Christopher L and Huntington, Geoffrey T and Hager, William W and Rao, Anil V},
+  Journal                  = {Computational Optimization and Applications},
+  Year                     = {2011},
+  Number                   = {2},
+  Pages                    = {335--358},
+  Volume                   = {49},
+
+  Publisher                = {Springer}
+}
+
+@Article{Garg2010,
+  Title                    = {A unified framework for the numerical solution of optimal control problems using pseudospectral methods},
+  Author                   = {Garg, Divya and Patterson, Michael and Hager, William W and Rao, Anil V and Benson, David A and Huntington, Geoffrey T},
+  Journal                  = {Automatica},
+  Year                     = {2010},
+  Number                   = {11},
+  Pages                    = {1843--1851},
+  Volume                   = {46},
+
+  Publisher                = {Elsevier}
+}
+
+@PhdThesis{Huntington2007,
+  Title                    = {Advancement and analysis of a Gauss pseudospectral transcription for optimal control problems},
+  Author                   = {Huntington, Geoffrey Todd},
+  School                   = {Citeseer},
+  Year                     = {2007}
+}
+
+@Article{Kameswaran2008,
+  Title                    = {Convergence rates for direct transcription of optimal control problems using collocation at Radau points},
+  Author                   = {Kameswaran, Shivakumar and Biegler, Lorenz T},
+  Journal                  = {Computational Optimization and Applications},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {81--126},
+  Volume                   = {41},
+
+  Publisher                = {Springer}
+}
+
+@Article{Patterson2014a,
+  Title                    = {A ph mesh refinement method for optimal control},
+  Author                   = {Patterson, Michael A and Hager, William W and Rao, Anil V},
+  Journal                  = {Optimal Control Applications and Methods},
+  Year                     = {2014},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{Patterson2012,
+  Title                    = {Exploiting sparsity in direct collocation pseudospectral methods for solving optimal control problems},
+  Author                   = {Patterson, Michael A and Rao, Anil},
+  Journal                  = {Journal of Spacecraft and Rockets},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {354--377},
+  Volume                   = {49}
+}
+
+@Article{Patterson2014,
+  Title                    = {GPOPS-II: A MATLAB Software for Solving Multiple-Phase Optimal Control Problems Using hp-Adaptive Gaussian Quadrature Collocation Methods and Sparse Nonlinear Programming},
+  Author                   = {Patterson, Michael A. and Rao, Anil V.},
+  Journal                  = {ACM Trans. Math. Softw.},
+  Year                     = {2014},
+
+  Month                    = oct,
+  Number                   = {1},
+  Pages                    = {1:1--1:37},
+  Volume                   = {41},
+
+  Acmid                    = {2558904},
+  Address                  = {New York, NY, USA},
+  Articleno                = {1},
+  Doi                      = {10.1145/2558904},
+  ISSN                     = {0098-3500},
+  Issue_date               = {October 2014},
+  Keywords                 = {Gaussian quadrature, MATLAB, Optimal control, applied mathematics, direct collocation, hp--adaptive methods, numerical methods, scientific computation},
+  Numpages                 = {37},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org.proxy2.library.illinois.edu/10.1145/2558904}
+}
+
+@Article{rao2011user,
+  Title                    = {User‟ s Manual for GPOPS Version 5. 0},
+  Author                   = {Rao, AV and Darby, CL and Huntington, GT},
+  Journal                  = {no. August},
+  Year                     = {2011}
+}
+
+@Article{Rao2010,
+  Title                    = {Algorithm 902: Gpops, a matlab software for solving multiple-phase optimal control problems using the gauss pseudospectral method},
+  Author                   = {Rao, Anil V and Benson, David A and Darby, Christopher and Patterson, Michael A and Francolin, Camila and Sanders, Ilyssa and Huntington, Geoffrey T},
+  Journal                  = {ACM Transactions on Mathematical Software (TOMS)},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {22},
+  Volume                   = {37},
+
+  Publisher                = {ACM}
+}
+
+@Article{rao2000,
+  Title                    = {Eigenvector approximate dichotomic basis method for solving hyper-sensitive optimal control problems},
+  Author                   = {Rao, Anil V and Mease, Kenneth D},
+  Journal                  = {Optimal Control Applications and Methods},
+  Year                     = {2000},
+  Number                   = {1},
+  Pages                    = {1--19},
+  Volume                   = {21},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{sanderson2010armadillo,
+  Title                    = {Armadillo: An open source C++ linear algebra library for fast prototyping and computationally intensive experiments},
+  Author                   = {Sanderson, Conrad},
+  Year                     = {2010},
+
+  Publisher                = {NICTA}
+}
+
+@Article{wachter2006implementation,
+  Title                    = {On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming},
+  Author                   = {W{\"a}chter, Andreas and Biegler, Lorenz T},
+  Journal                  = {Mathematical programming},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {25--57},
+  Volume                   = {106},
+
+  Publisher                = {Springer}
+}
+
+@Article{Waechter2006,
+  Title                    = {On the implementation of an interior-point filter line-search algorithm for large-scale nonlinear programming},
+  Author                   = {W{\"a}chter, Andreas and Biegler, Lorenz T},
+  Journal                  = {Mathematical programming},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {25--57},
+  Volume                   = {106},
+
+  Publisher                = {Springer}
+}
+

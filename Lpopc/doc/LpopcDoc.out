@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section.1}{Introlduction to Lpopc}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{What is Lpopc}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{About the Author}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{How you can help}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{External Software Libraries}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Armadillo}{subsection.1.4}% 6
+\BOOKMARK [3][-]{subsubsection.1.4.2}{BLAS and LAPACK}{subsection.1.4}% 7
+\BOOKMARK [3][-]{subsubsection.1.4.3}{IPOPT}{subsection.1.4}% 8
+\BOOKMARK [3][-]{subsubsection.1.4.4}{spdlog}{subsection.1.4}% 9
+\BOOKMARK [1][-]{section.2}{Installing Lpopc}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Linux}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Windows}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Cygwin\(MinGW,MYSY2\)}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Visual Studio with ifort}{subsection.2.2}% 14
+\BOOKMARK [1][-]{section.3}{Interfacing Your Problem}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Quick Reference}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Bounds of Var and Functions}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Linkage}{subsection.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.3}{Optimal Problem Functions}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Derivative}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Finite-difference Method for Jacobian\(Default\)}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Analytic Method for Jacobian}{subsection.3.4}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Hessian}{subsection.3.4}% 23
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Function Dependencies}{subsection.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.5}{Initial Guess}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.6}{Mesh Refinement}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.7}{Scaling*}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.8}{Solve Problem}{section.3}% 28
+\BOOKMARK [2][-]{subsection.3.9}{Output File}{section.3}% 29
+\BOOKMARK [2][-]{subsection.3.10}{Options Reference}{section.3}% 30
+\BOOKMARK [1][-]{section.4}{Examples}{}% 31
+\BOOKMARK [2][-]{subsection.4.1}{Hyper-Sensitive Problem}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.2}{Bryson-DenHam Problem}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.3}{Launch}{section.4}% 34

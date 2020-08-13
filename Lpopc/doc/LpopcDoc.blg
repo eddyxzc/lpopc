@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: LpopcDoc.aux
+The style file: plain.bst
+Database file #1: lpref.bib
+Warning--empty journal in sanderson2010armadillo
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            566 strings with 6020 characters,
+and the built_in function-call counts, 3016 in all, are:
+= -- 296
+> -- 147
+< -- 0
++ -- 60
+- -- 48
+* -- 221
+:= -- 536
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 53
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 107
+empty$ -- 224
+format.name$ -- 48
+if$ -- 599
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 45
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 71
+stack$ -- 0
+substring$ -- 171
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 1
+while$ -- 31
+width$ -- 12
+write$ -- 110
+(There was 1 warning)

@@ -1,0 +1,35 @@
+\documentclass[10pt]{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{xspace}
+\newcommand{\Ipopt}{\textsc{Ipopt}\xspace}
+\newcommand{\LPOPC}{\textsc{LPOPC}\xspace}
+\title{{User's Manual for \LPOPC}\\A c++ Package for Solving Multiple-Phase Optimal Control Problems Using Adaptive Radau Pseudospectral Methods\\version 1.0.0\\published with EPL}
+\author{Xue Zhichen \\Wang Yujie \\Wang Na
+\\Nanjing University of Science and Technology
+}
+\bibliographystyle{plain}
+
+\begin{document}
+\maketitle
+
+
+\clearpage
+\section*{Disclaimer}
+
+This software is provided ``as is'' and free-of-charge.  See the EPL license file for more details.  The authors do, however,
+hope that users will find this software useful for research and other
+purposes.
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Introlduction to \LPOPC}
+    \subsection{What is \LPOPC}
+    \LPOPC is an open source optimal control package written in C++ that using  Radau Pseudospectral Methods with adaptive mesh refinement algorithm.\LPOPC is able to deal with the\cite{Patterson2014}
+\section{Installing \LPOPC}
+ \subsection{Windows}
+\section{Interfacing Your Problem}
+\section{Examples}
+\bibliography{lpref}
+\end{document}

@@ -1,0 +1,22 @@
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+Sep 17 2015 00:39 +8h  
+
+version 1.1.0 released! 
+
+Added a new mesh refine method "Liu hp".
+Paper referenced:
+
+Liu F, Hager W W, Rao A V. Adaptive Mesh Refinement Method for Optimal Control Using Nonsmoothness Detection and Mesh Size Reduction[J]. Journal of the Franklin Institute, 2015, 47.
+
+Thanks for the help from Liu!
+
+
+
+How to use new methods?
+"
+app->Options()->SetStringValue("mesh-refine-methods", "hp-Liu");
+"
+Look HyperSensitive.cpp for more detail!
+Xue Zhichen
+//////////////////////////////////////////////////////////////////////////////////////////////////

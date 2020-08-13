@@ -1,0 +1,71 @@
+\documentclass[10pt]{article}
+\usepackage{epsfig,enumerate,amsmath,amsfonts,latexsym,graphics,graphicx,theorem,graphics}
+\usepackage{fancyhdr,subfig}
+\usepackage{makeidx,amssymb,longtable}
+\usepackage{xspace}
+\newcommand{\Ipopt}{\textsc{Ipopt}\xspace}
+\newcommand{\LPOPC}{\textsc{LPOPC}\xspace}
+\title{{User's Manual for \LPOPC}\\A c++ Package for Solving Multiple-Phase Optimal Control Problems Using Adaptive Radau Pseudospectral Methods\\version 1.0.0\\published with EPL}
+\author{Xue Zhichen \\Wang Yujie \\Wang Na
+\\Nanjing University of Science and Technology
+}
+\bibliographystyle{plain}
+
+\begin{document}
+\maketitle
+
+
+\clearpage
+\section*{Disclaimer}
+
+This software is provided ``as is'' and free-of-charge.  See the EPL license file for more details.  The authors do, however,
+hope that users will find this software useful for research and other
+purposes.
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Introlduction to \LPOPC}
+    \subsection{What is \LPOPC}
+    \LPOPC is an open source optimal control package written in C++ that using  Radau Pseudospectral Methods with adaptive mesh refinement algorithm.
+    The algorithm employed by \LPOPC is mainly based on the following  literatures\cite{Betts2009}\cite{Patterson2014}\cite{Rao2010}.\\
+    \LPOPC is able to deal with the the problems of the follwing form\cite{Rao2010}.Given a set of $P$ phases (where
+    $p=1,\ldots,P$), minimize the cost functional
+    \begin{equation}
+     J = \sum_{p=1}^{P} J^{(p)} = \sum_{p=1}^{P}
+    \left[\Phi^{(p)}(\bfx^{(p)}(t_0),t_0,\bfx^{(p)}(t_f),t_f;\bfq^{(p)})
+    + \mcL^{(p)}(\bfx^{(p)}(t),\bfu^{(p)}(t),t;\bfq^{(p)})dt \right]
+    \end{equation}
+    subject to the dynamic constraint
+    \begin{equation}
+    \dbfx^{(p)} = \bff^{(p)}(\bfx^{(p)},\bfu^{(p)},t;\bfq^{(p)}), \qquad (p=1,\ldots,P),
+    \end{equation}
+    the boundary conditions
+    \begin{equation}
+    \bfphi_{\min} \leq
+    \bfphi^{(p)}(\bfx^{(p)}(t_0),t_0^{(p)},\bfx^{(p)}(t_f),t_f^{(p)};\bfq^{(p)})
+    \leq \bfphi_{\max}, \qquad (p=1,\ldots,P),
+    \end{equation}
+    the inequality path constraints
+    \begin{equation}
+    \bfC_{\min}^{(p)} \leq \bfC^{(p)}(\bfx^{(p)}(t),\bfu^{(p)}(t),t;\bfq^{(p)})\leq  \bfC_{\max}^{(p)}, \qquad
+    (p=1,\ldots,P),
+    \end{equation}
+    and the phase continuity (linkage) constraints
+    \begin{equation}
+    \bfP^{(s)}(\bfx^{(p_l^s)}(t_f),t_f^{(p_l^s)};\bfq^{(p_l^s)},\bfx^{(p_u^s)}(t_0),t_0^{(p_u^s)};\bfq^{(p_u^s)})
+     =   \bfzero, \qquad (p_l,p_u\in[1,\ldots,P],s=1,\ldots,L)
+    \end{equation}
+    where $\bfx^{(p)}(t)\in\bbR^{n_p}$, $\bfu^{(p)}(t)\in\bbR^{m_p}$,
+    $\bfq^{(p)}\in\bbR^{q_p}$, and $t\in\bbR$ are, respectively, the state,
+    control, static parameters, and time in phase $p\in[1,\ldots,P]$, $L$
+    is the number of phases to be linked,
+    $p_l^s\in[1,\ldots,P],\;(s=1,\ldots,L)$ are the ``left'' phase numbers,
+    and $p_u^s\in[1,\ldots,P],\;(s=1,\ldots,L)$ are the ``right'' phase
+    numbers.
+\section{Installing \LPOPC}
+ \subsection{Windows}
+\section{Interfacing Your Problem}
+\section{Examples}
+\bibliography{lpref}
+\end{document}

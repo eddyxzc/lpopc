@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{benson2005gauss}
+David Benson.
+\newblock {\em A Gauss pseudospectral transcription for optimal control}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2005.
+
+\bibitem{Betts2009}
+John~T. Betts.
+\newblock {\em Practical Methods for Optimal Control and Estimation Using
+  Nonlinear Programming}.
+\newblock Cambridge University Press, New York, NY, USA, 2nd edition, 2009.
+
+\bibitem{bryson1969energy}
+Arthur~E BRYSON, JR, Mukund~N Desai, and William~C Hoffman.
+\newblock Energy-state approximation in performance optimization of
+  supersonicaircraft.
+\newblock {\em Journal of Aircraft}, 6(6):481--488, 1969.
+
+\bibitem{Patterson2014a}
+Michael~A Patterson, William~W Hager, and Anil~V Rao.
+\newblock A ph mesh refinement method for optimal control.
+\newblock {\em Optimal Control Applications and Methods}, 2014.
+
+\bibitem{Patterson2012}
+Michael~A Patterson and Anil Rao.
+\newblock Exploiting sparsity in direct collocation pseudospectral methods for
+  solving optimal control problems.
+\newblock {\em Journal of Spacecraft and Rockets}, 49(2):354--377, 2012.
+
+\bibitem{Patterson2014}
+Michael~A. Patterson and Anil~V. Rao.
+\newblock Gpops-ii: A matlab software for solving multiple-phase optimal
+  control problems using hp-adaptive gaussian quadrature collocation methods
+  and sparse nonlinear programming.
+\newblock {\em ACM Trans. Math. Softw.}, 41(1):1:1--1:37, October 2014.
+
+\bibitem{Rao2010}
+Anil~V Rao, David~A Benson, Christopher Darby, Michael~A Patterson, Camila
+  Francolin, Ilyssa Sanders, and Geoffrey~T Huntington.
+\newblock Algorithm 902: Gpops, a matlab software for solving multiple-phase
+  optimal control problems using the gauss pseudospectral method.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)}, 37(2):22,
+  2010.
+
+\bibitem{rao2000}
+Anil~V Rao and Kenneth~D Mease.
+\newblock Eigenvector approximate dichotomic basis method for solving
+  hyper-sensitive optimal control problems.
+\newblock {\em Optimal Control Applications and Methods}, 21(1):1--19, 2000.
+
+\bibitem{sanderson2010armadillo}
+Conrad Sanderson.
+\newblock Armadillo: An open source c++ linear algebra library for fast
+  prototyping and computationally intensive experiments.
+\newblock 2010.
+
+\bibitem{wachter2006implementation}
+Andreas W{\"a}chter and Lorenz~T Biegler.
+\newblock On the implementation of an interior-point filter line-search
+  algorithm for large-scale nonlinear programming.
+\newblock {\em Mathematical programming}, 106(1):25--57, 2006.
+
+\end{thebibliography}
