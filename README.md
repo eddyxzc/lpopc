@@ -3,3 +3,5 @@
 This code was stored in sourceforge.  See https://sourceforge.net/projects/lpopc/
 See doc for usage.
 No updates for this old version. The new Lpopc2 is under development.
+
+基于c++的Radau伪谱法实现
